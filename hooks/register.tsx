@@ -226,19 +226,22 @@ export const register: Register = (on) => {
 
     return (
       <Box flexDirection="column" padding={1} gap={1}>
-        {/* Row 1: Model, effort, duration, tokens, cost, progress bar */}
-        <Box>
-          <Text color={modelColor} bold>{modelShort}</Text>
-          <Text> </Text>
-          <Text color={effortColor}>{state.effort}</Text>
-          <Text> </Text>
-          <Text dimColor>{duration}</Text>
-          <Text> </Text>
-          <Text color={tokenColor}>{state.tokenPercent.toFixed(0)}%</Text>
-          <Text> </Text>
-          <Text color={tokenColor}>{progressBar}</Text>
-          <Text> </Text>
-          <Text dimColor>${state.estimatedCost.toFixed(2)}</Text>
+        {/* Row 1: Stats left, title right */}
+        <Box justifyContent="space-between">
+          <Box>
+            <Text color={modelColor} bold>{modelShort}</Text>
+            <Text> </Text>
+            <Text color={effortColor}>{state.effort}</Text>
+            <Text> </Text>
+            <Text dimColor>{duration}</Text>
+            <Text> </Text>
+            <Text color={tokenColor}>{state.tokenPercent.toFixed(0)}%</Text>
+            <Text> </Text>
+            <Text color={tokenColor}>{progressBar}</Text>
+            <Text> </Text>
+            <Text dimColor>${state.estimatedCost.toFixed(2)}</Text>
+          </Box>
+          <Text bold color="cyan">Scail Session Advisor</Text>
         </Box>
 
         {/* Row 2: Tools and pattern */}
