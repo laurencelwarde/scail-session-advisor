@@ -1,5 +1,14 @@
 {
-  "name": "scail-session-advisor",
-  "description": "SCAIL Session Advisor - Real-time panel showing current model, effort level, token usage with cost estimates, tool statistics, workflow pattern detection, and one-click session handoff",
-  "author": "laurencelwarde"
+  "owner": {
+    "name": "laurencelwarde",
+    "url": "https://github.com/laurencelwarde"
+  },
+  "plugins": [
+    {
+      "id": "scail-session-advisor",
+      "name": "SCAIL Session Advisor",
+      "description": "Real-time panel showing model, effort, token usage, cost estimates, and session handoff",
+      "version": "1.0.0"
+    }
+  ]
 }
