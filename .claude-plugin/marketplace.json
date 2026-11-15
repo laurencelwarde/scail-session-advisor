@@ -1,14 +1,18 @@
 {
+  "name": "scail-session-advisor",
+  "description": "Real-time panel showing model, effort, token usage, cost estimates, and session handoff",
   "owner": {
-    "name": "laurencelwarde",
-    "url": "https://github.com/laurencelwarde"
+    "name": "laurencelwarde"
   },
   "plugins": [
     {
-      "id": "scail-session-advisor",
-      "name": "SCAIL Session Advisor",
+      "name": "scail-session-advisor",
+      "source": ".",
       "description": "Real-time panel showing model, effort, token usage, cost estimates, and session handoff",
-      "version": "1.0.0"
+      "category": "productivity",
+      "author": {
+        "name": "Laurence Lemmon-Warde"
+      }
     }
   ]
 }
