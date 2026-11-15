@@ -16,9 +16,32 @@ A Claude Code plugin that displays a real-time session advisor panel with model 
 
 ## Installation
 
+### From Marketplace (recommended)
+
 ```bash
 /plugin install scail-session-advisor --marketplace laurencelwarde/scail-session-advisor
 ```
+
+### Local Development
+
+Clone and run with the plugin directory flag:
+
+```bash
+git clone https://github.com/laurencelwarde/scail-session-advisor.git
+claude --plugin-dir ./scail-session-advisor
+```
+
+Or copy to your Claude Code plugins folder:
+
+```bash
+# Windows
+cp -r scail-session-advisor ~/.claude/plugins/
+
+# Mac/Linux  
+cp -r scail-session-advisor ~/.claude/plugins/
+```
+
+Then restart Claude Code.
 
 ## Usage
 
@@ -41,16 +64,9 @@ Paste this into a new session to continue where you left off.
 ## Panel Display
 
 ```
-SCAIL Session Advisor
-
-opus   high   45m   67%   $12.34
-
-████████░░░░
-
-Read:45 Edit:23 Bash:12
-Search & Edit(3x)
-
-[Handoff]
+opus high 45m 67% ████████░░░░ $12.34       Scail Session Advisor
+Read:45 Edit:23 Bash:12  Search & Edit(3x)
+[ [h] Handoff ]
 ```
 
 ## License
