@@ -1,0 +1,5 @@
+{
+  "name": "scail-session-advisor",
+  "version": "1.0.0",
+  "description": "SCAIL Session Advisor - Panel showing model/effort suggestions, token usage, cost estimates, and session handoff"
+}

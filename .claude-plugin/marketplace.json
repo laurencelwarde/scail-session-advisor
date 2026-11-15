@@ -1,0 +1,5 @@
+{
+  "name": "scail-session-advisor",
+  "description": "SCAIL Session Advisor - Real-time panel showing current model, effort level, token usage with cost estimates, tool statistics, workflow pattern detection, and one-click session handoff",
+  "author": "laurencelwarde"
+}
